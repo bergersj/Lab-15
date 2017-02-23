@@ -5,6 +5,10 @@
 
 body {
   text-align: center;
+  margin: 10px !important;
+  padding: 15px !important;
+  border-style: groove;
+  border-color: rgb(4, 98, 40);
 }
 
 .page-header h1 small {
