@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Lab 15</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Fontdiner+Swanky" rel="stylesheet">
+
+</head>
+
+<body ng-app='myMod'>
+
+    <div class="page-header">
+        <h1>Lab 15 <small>Angular Factory Mad-Lib</small></h1>
+    </div>
+
+    <div class="containter">
+
+        <div class="row">
+            <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                <div class="btn-group col-sm-6" role="group">
+                    <a href="#/input"><button type="button" class="btn btn-default">Input</button></a>
+                </div>
+                <div class="btn-group col-sm-6" role="group">
+                    <a href="#/output"><button type="button" class="btn btn-default">Output</button></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="display">
+
+            <ng-view></ng-view>
+  
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular-route.js"></script>
+    <script src="js/module.js"></script>
+    <script src="js/infoFactory.js"></script>
+    <script src="js/controllers/inputController.js"></script>
+    <script src="js/controllers/outputController.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+* {
+  font-family: 'Fontdiner Swanky', cursive;
+  letter-spacing: .08em;
+}
+
+body {
+  text-align: center;
+}
+
+.page-header h1 small {
+  color: rgb(4, 98, 40);
+}
+
+.container {
+  padding: 25px;
+}
+
+.display input{
+  margin: 5px;
+  height: 30px;
+  font-size: 20pt;
+  padding: 20px;
+}
+
+.display p {
+  padding-top: 20px;
+  color: rgb(4, 98, 40);
+}
+
+.btn-primary {
+  background-color: rgb(4, 98, 40) !important;
+}
